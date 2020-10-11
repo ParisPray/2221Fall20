@@ -3,9 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
-public class jump : MonoBehaviour
+public class Jump : MonoBehaviour
 {
-
     public float gravity = -9.81f;
     public Vector3 positionDirection;
     public CharacterController Controller;
@@ -21,10 +20,10 @@ public class jump : MonoBehaviour
     void Start()
     {
         Controller = GetComponent<CharacterController>();
-        StartCoroutine(Jump());
+        StartCoroutine(JumpRoutine());
     }
 
-    private IEnumerator Jump()
+    private IEnumerator JumpRoutine()
     {
         canMove = true;
         while (canMove)
@@ -56,6 +55,3 @@ public class jump : MonoBehaviour
        
     }
 }
-
-
-

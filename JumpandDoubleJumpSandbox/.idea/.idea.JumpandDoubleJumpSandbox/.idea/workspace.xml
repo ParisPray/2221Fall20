@@ -33,6 +33,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../Walk and Run Sandbox/Assets/Scripts/Jump.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/floatData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -41,6 +42,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/floatData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/jump.cs" />
+        <option value="$PROJECT_DIR$/../Walk and Run Sandbox/Assets/Scripts/Jump.cs" />
       </list>
     </option>
   </component>
@@ -92,6 +94,7 @@
       <updated>1602106194062</updated>
       <workItem from="1602106206164" duration="600000" />
       <workItem from="1602192425620" duration="3358000" />
+      <workItem from="1602295665823" duration="1337000" />
     </task>
     <servers />
   </component>

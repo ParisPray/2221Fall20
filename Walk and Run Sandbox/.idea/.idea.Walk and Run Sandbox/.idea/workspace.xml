@@ -30,12 +30,15 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/floatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IntData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/floatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Jump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
       </list>
     </option>
   </component>
@@ -87,6 +90,8 @@
       <updated>1601503424007</updated>
       <workItem from="1601503432710" duration="1597000" />
       <workItem from="1601858264239" duration="599000" />
+      <workItem from="1602449318234" duration="271000" />
+      <workItem from="1602449776646" duration="177000" />
     </task>
     <servers />
   </component>

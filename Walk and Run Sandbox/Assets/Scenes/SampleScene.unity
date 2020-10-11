@@ -897,6 +897,7 @@ GameObject:
   - component: {fileID: 1786832489}
   - component: {fileID: 1786832488}
   - component: {fileID: 1786832493}
+  - component: {fileID: 1786832494}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -920,7 +921,7 @@ MonoBehaviour:
   rotateSpeed: 100
   moveSpeed: {fileID: 11400000, guid: 3e2536a1617bbdf4781bfe1ebb0ef771, type: 2}
   normalSpeed: {fileID: 11400000, guid: 70ead367fde5a9c40be165a7a806c695, type: 2}
-  fastSpeed: {fileID: 0}
+  fastSpeed: {fileID: 11400000, guid: 89bc6a82bfeb4614b87377fbab0ed887, type: 2}
 --- !u!65 &1786832489
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1014,6 +1015,23 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1786832494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786832487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70665ba4b47e4c9428a79f65553c82c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gravity: -9.81
+  positionDirection: {x: 0, y: 0, z: 0}
+  Controller: {fileID: 1786832493}
+  jumpInt: {fileID: 11400000, guid: 36c70509e9391bd419fa501753bfc79b, type: 2}
+  jumpForce: 10
 --- !u!1001 &2134837161
 PrefabInstance:
   m_ObjectHideFlags: 0
