@@ -1031,7 +1031,7 @@ MonoBehaviour:
   positionDirection: {x: 0, y: 0, z: 0}
   Controller: {fileID: 1786832493}
   jumpInt: {fileID: 11400000, guid: 36c70509e9391bd419fa501753bfc79b, type: 2}
-  jumpForce: 10
+  jumpForce: 8
 --- !u!1001 &2134837161
 PrefabInstance:
   m_ObjectHideFlags: 0
