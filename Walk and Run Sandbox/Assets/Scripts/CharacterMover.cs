@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,6 +14,8 @@ public class CharacterMover : MonoBehaviour
     private float yVar;
 
     public floatData moveSpeed, normalSpeed, fastSpeed;
+
+    public GameObject health;
     
     // Start is called before the first frame update
     private void Start()
@@ -44,4 +47,6 @@ public class CharacterMover : MonoBehaviour
         transform.Rotate(0, hInput, 0);
         
     }
+
+   
 }

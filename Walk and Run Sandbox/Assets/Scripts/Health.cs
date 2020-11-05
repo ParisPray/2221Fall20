@@ -46,6 +46,7 @@ public class Health : MonoBehaviour
         {
             
             AddHealth();
+            Destroy(other);
             
 
         }

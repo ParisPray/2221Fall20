@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8992279961638961161}
   - component: {fileID: 7136531635620539718}
   - component: {fileID: 462167844407566648}
+  - component: {fileID: 6794768272938958805}
   m_Layer: 0
   m_Name: health
   m_TagString: Health
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6766684049075494804}
-  m_LocalRotation: {x: -0.29852816, y: -0.30069372, z: 0.6381748, w: 0.6428042}
-  m_LocalPosition: {x: -9.56, y: 1.8, z: -12.87}
-  m_LocalScale: {x: 2.1849, y: 0.120852135, z: 2.1849}
+  m_LocalRotation: {x: -0.002472717, y: -0.7080455, z: 0.00046833692, w: 0.70616245}
+  m_LocalPosition: {x: -9.56, y: 2.198, z: -12.87}
+  m_LocalScale: {x: 3.101959, y: 0.1715769, z: 3.101959}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -50.139004, z: 89.586006}
+  m_LocalEulerAnglesHint: {x: -0.162, y: -90.15301, z: 0.23900001}
 --- !u!33 &8992279961638961161
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -94,3 +95,64 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!108 &6794768272938958805
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6766684049075494804}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 0.48372412, g: 1, b: 0, a: 0.34117648}
+  m_Intensity: 50
+  m_Range: 2.7512112
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
