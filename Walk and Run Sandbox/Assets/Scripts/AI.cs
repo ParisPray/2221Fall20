@@ -11,6 +11,8 @@ public class AI : MonoBehaviour
     public Transform player;
     private bool canHunt, canPatrol;
     public List<Transform> patrolPoints;
+    public CharacterMover playerscript;
+    public TriggerVolume triggerScript;
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
@@ -19,6 +21,8 @@ public class AI : MonoBehaviour
 
     private IEnumerator OnTriggerEnter(Collider other)
     {
+      
+      if (playerscript){}
         canHunt = true;
         canPatrol = false;
         agent.destination = player.position;

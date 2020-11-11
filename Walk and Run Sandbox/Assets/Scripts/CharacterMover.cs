@@ -17,6 +17,8 @@ public class CharacterMover : MonoBehaviour
 
     public GameObject health;
     
+    public bool IsVisible;
+    
     // Start is called before the first frame update
     private void Start()
     {
