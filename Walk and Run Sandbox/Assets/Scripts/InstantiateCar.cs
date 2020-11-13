@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class InstantiateCar : MonoBehaviour
 {
-    
-    public GameObject Player;
     public GameObject Car;
  
     void Update ()
@@ -15,7 +13,7 @@ public class InstantiateCar : MonoBehaviour
     
     IEnumerator Spawn ()
     {
-        yield return new WaitForSeconds (Random.Range (1, 600));
+        yield return new WaitForSeconds (Random.Range (1, 12000));
         Instantiate(Car);
         Debug.Log("spawn car");
     }
