@@ -64,6 +64,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LightBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
       </list>
     </option>
   </component>
@@ -128,6 +129,7 @@
       <workItem from="1605490527449" duration="3227000" />
       <workItem from="1605497660169" duration="35000" />
       <workItem from="1605498948539" duration="1662000" />
+      <workItem from="1605634702995" duration="213000" />
     </task>
     <servers />
   </component>
