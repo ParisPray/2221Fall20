@@ -19,6 +19,7 @@
           <e p="InstantiateCar.cs" t="Include" />
           <e p="IntData.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
+          <e p="LightBar.cs" t="Include" />
           <e p="PlayerRespawn.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
           <e p="TriggerVolume.cs" t="Include" />

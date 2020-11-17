@@ -41,6 +41,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerVolume.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,14 +55,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerShooting.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Force.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightBar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       </list>
     </option>
   </component>
@@ -123,6 +125,9 @@
       <workItem from="1605153682956" duration="239000" />
       <workItem from="1605154377413" duration="293000" />
       <workItem from="1605225651334" duration="757000" />
+      <workItem from="1605490527449" duration="3227000" />
+      <workItem from="1605497660169" duration="35000" />
+      <workItem from="1605498948539" duration="1662000" />
     </task>
     <servers />
   </component>

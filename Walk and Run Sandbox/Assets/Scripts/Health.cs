@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     public GameObject enemy;
     public GameObject healthobj;
     public GameObject currentSpawnPoint;
+    public CharacterController characterController;
     [SerializeField]  CharacterMover playerControllerScript;
    
     public void Start()
@@ -38,6 +39,13 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void deathHealth()
+    {
+        characterController.enabled = false;
+        transform.position = currentSpawnPoint.transform.position;
+        health.value = 3f;
+        characterController.enabled = true;
+    }
     public void OnTriggerEnter(Collider other)
     {
       
@@ -54,6 +62,11 @@ public class Health : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             SubtractHealth();
+        }
+
+        if (other.CompareTag("Car"))
+        {
+            deathEvent.Invoke();
         }
     }
 }
