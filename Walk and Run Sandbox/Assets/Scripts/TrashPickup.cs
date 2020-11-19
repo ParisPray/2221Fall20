@@ -9,6 +9,7 @@ public class TrashPickup : MonoBehaviour
     public bool canHold = true;
     public GameObject ball;
     public Transform guide;
+    public bool isPickUp1;
  
     void Update()
     {
@@ -46,6 +47,8 @@ public class TrashPickup : MonoBehaviour
  
     private void Pickup()
     {
+        
+        
         if (!ball)
             return;
         
@@ -56,10 +59,12 @@ public class TrashPickup : MonoBehaviour
         ball.transform.position = guide.position;
  
         canHold = false;
+        isPickUp1 = true;
     }
  
     private void throw_drop()
     {
+        
         if (!ball)
             return;
         
@@ -68,5 +73,6 @@ public class TrashPickup : MonoBehaviour
         guide.GetChild(0).gameObject.GetComponent<Rigidbody>().velocity = transform.forward * speed;
         guide.GetChild(0).parent = null;
         canHold = true;
+        isPickUp1 = false;
     }
 }

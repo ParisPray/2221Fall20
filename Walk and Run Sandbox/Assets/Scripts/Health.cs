@@ -45,6 +45,7 @@ public class Health : MonoBehaviour
         transform.position = currentSpawnPoint.transform.position;
         health.value = 3f;
         characterController.enabled = true;
+        
     }
     public void OnTriggerEnter(Collider other)
     {
