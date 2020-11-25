@@ -10,7 +10,7 @@ public class TrashPickup : MonoBehaviour
     public GameObject ball;
     public Transform guide;
     public bool isPickUp1;
- 
+   
     void Update()
     {
         if (Input.GetMouseButtonDown(0))

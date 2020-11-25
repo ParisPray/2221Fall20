@@ -16,7 +16,7 @@ public class InstantiateCar : MonoBehaviour
         yield return new WaitForSeconds (Random.Range (1, 12000));
         Car.transform.position = carSpawnPoint.transform.position;
         Instantiate(Car);
-        Debug.Log("spawn car");
+        
     }
 }
 

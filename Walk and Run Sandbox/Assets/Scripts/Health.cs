@@ -10,7 +10,12 @@ public class Health : MonoBehaviour
     public GameObject healthobj;
     public GameObject currentSpawnPoint;
     public CharacterController characterController;
-    [SerializeField]  CharacterMover playerControllerScript;
+    public GameObject trash1;
+    public GameObject trash2;
+    public GameObject trash3;
+    public TrashSpawn TrashSpawn;
+    
+        [SerializeField]  CharacterMover playerControllerScript;
    
     public void Start()
     {
@@ -45,7 +50,13 @@ public class Health : MonoBehaviour
         transform.position = currentSpawnPoint.transform.position;
         health.value = 3f;
         characterController.enabled = true;
+        Destroy(trash1);
+        Destroy(trash2);
+        Destroy(trash3);
+        TrashSpawn.TrashRespawn();
+     
         
+
     }
     public void OnTriggerEnter(Collider other)
     {
