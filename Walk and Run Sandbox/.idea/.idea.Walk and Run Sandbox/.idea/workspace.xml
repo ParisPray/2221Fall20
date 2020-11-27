@@ -65,12 +65,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CarMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeDoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       </list>
     </option>
   </component>
@@ -140,6 +140,7 @@
       <workItem from="1605666656937" duration="1631000" />
       <workItem from="1606152295118" duration="2922000" />
       <workItem from="1606257750381" duration="2055000" />
+      <workItem from="1606343960736" duration="2451000" />
     </task>
     <servers />
   </component>

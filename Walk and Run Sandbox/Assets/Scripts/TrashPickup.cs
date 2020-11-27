@@ -10,7 +10,8 @@ public class TrashPickup : MonoBehaviour
     public GameObject ball;
     public Transform guide;
     public bool isPickUp1;
-   
+    public bool isPickUp2;
+    public bool isPickUp3;
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
@@ -57,9 +58,20 @@ public class TrashPickup : MonoBehaviour
         ball.GetComponent<Rigidbody>().useGravity = false;
         ball.transform.localRotation = transform.rotation;
         ball.transform.position = guide.position;
- 
-        canHold = false;
-        isPickUp1 = true;
+
+        if (CompareTag("trash1"))
+        {
+            isPickUp1 = true;
+        }
+        if (CompareTag("trash2"))
+        {
+            isPickUp2 = true;
+        }
+        
+        if (CompareTag("trash3"))
+        {
+            isPickUp3 = true;
+        }
     }
  
     private void throw_drop()
@@ -73,6 +85,19 @@ public class TrashPickup : MonoBehaviour
         guide.GetChild(0).gameObject.GetComponent<Rigidbody>().velocity = transform.forward * speed;
         guide.GetChild(0).parent = null;
         canHold = true;
-        isPickUp1 = false;
+        
+        if (CompareTag("trash1"))
+        {
+            isPickUp1 = false;
+        }
+        if (CompareTag("trash2"))
+        {
+            isPickUp2 = false;
+        }
+        
+        if (CompareTag("trash3"))
+        {
+            isPickUp3 = false;
+        }
     }
 }

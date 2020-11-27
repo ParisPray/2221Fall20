@@ -14,6 +14,9 @@ public class Health : MonoBehaviour
     public GameObject trash2;
     public GameObject trash3;
     public TrashSpawn TrashSpawn;
+    public bool isPickUp1;
+    public bool isPickUp2;
+    public bool isPickUp3;
     
         [SerializeField]  CharacterMover playerControllerScript;
    
@@ -50,6 +53,20 @@ public class Health : MonoBehaviour
         transform.position = currentSpawnPoint.transform.position;
         health.value = 3f;
         characterController.enabled = true;
+        
+        if (CompareTag("trash1"))
+        {
+            isPickUp1 = false;
+        }
+        if (CompareTag("trash2"))
+        {
+            isPickUp2 = false;
+        }
+        
+        if (CompareTag("trash3"))
+        {
+            isPickUp3 = false;
+        }
         Destroy(trash1);
         Destroy(trash2);
         Destroy(trash3);
