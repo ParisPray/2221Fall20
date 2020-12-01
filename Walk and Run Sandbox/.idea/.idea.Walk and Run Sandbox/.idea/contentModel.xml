@@ -13,7 +13,9 @@
           <e p="Camera.cs" t="Include" />
           <e p="CarMover.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="DoorController.cs" t="Include" />
           <e p="EscapeDoorScript.cs" t="Include" />
+          <e p="EventManager.cs" t="Include" />
           <e p="floatData.cs" t="Include" />
           <e p="Force.cs" t="Include" />
           <e p="Health.cs" t="Include" />
@@ -26,6 +28,7 @@
           <e p="PlayerShooting.cs" t="Include" />
           <e p="TrashPickup.cs" t="Include" />
           <e p="TrashSpawn.cs" t="Include" />
+          <e p="TriggerArea.cs" t="Include" />
           <e p="TriggerVolume.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">

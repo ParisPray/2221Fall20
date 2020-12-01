@@ -39,6 +39,7 @@ public class CharacterMover : MonoBehaviour
                 moveSpeed = fastSpeed;
             }
 
+           
             if (Input.GetKeyUp(KeyCode.LeftShift))
             {
                 moveSpeed = normalSpeed;

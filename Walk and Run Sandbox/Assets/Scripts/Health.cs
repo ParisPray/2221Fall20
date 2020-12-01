@@ -9,6 +9,9 @@ public class Health : MonoBehaviour
     public GameObject enemy;
     public GameObject healthobj;
     public GameObject currentSpawnPoint;
+    public GameObject trash1SpawnPoint;
+    public GameObject trash2SpawnPoint;
+    public GameObject trash3SpawnPoint;
     public CharacterController characterController;
     public GameObject trash1;
     public GameObject trash2;
@@ -67,9 +70,12 @@ public class Health : MonoBehaviour
         {
             isPickUp3 = false;
         }
-        Destroy(trash1);
-        Destroy(trash2);
-        Destroy(trash3);
+
+        TrashPickup.ball.transform.parent = null;
+
+        trash1.transform.position = trash1SpawnPoint.transform.position;
+        trash2.transform.position = trash2SpawnPoint.transform.position;
+        trash3.transform.position = trash3SpawnPoint.transform.position;
         TrashSpawn.TrashRespawn();
      
         

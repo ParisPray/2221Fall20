@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class TrashPickup : MonoBehaviour
 {
-    
+    public static TrashPickup current;
     public float speed = 10;
     public bool canHold = true;
-    public GameObject ball;
+    public static GameObject ball;
     public Transform guide;
     public bool isPickUp1;
     public bool isPickUp2;
@@ -59,19 +59,7 @@ public class TrashPickup : MonoBehaviour
         ball.transform.localRotation = transform.rotation;
         ball.transform.position = guide.position;
 
-        if (CompareTag("trash1"))
-        {
-            isPickUp1 = true;
-        }
-        if (CompareTag("trash2"))
-        {
-            isPickUp2 = true;
-        }
         
-        if (CompareTag("trash3"))
-        {
-            isPickUp3 = true;
-        }
     }
  
     private void throw_drop()
@@ -79,25 +67,15 @@ public class TrashPickup : MonoBehaviour
         
         if (!ball)
             return;
-        
+
+        ball.transform.parent = null;
+        guide.GetChild(0).parent = null;
         ball.GetComponent<Rigidbody>().useGravity = true;
         ball = null;
         guide.GetChild(0).gameObject.GetComponent<Rigidbody>().velocity = transform.forward * speed;
-        guide.GetChild(0).parent = null;
         canHold = true;
         
-        if (CompareTag("trash1"))
-        {
-            isPickUp1 = false;
-        }
-        if (CompareTag("trash2"))
-        {
-            isPickUp2 = false;
-        }
-        
-        if (CompareTag("trash3"))
-        {
-            isPickUp3 = false;
-        }
+
     }
-}
+    }
+
