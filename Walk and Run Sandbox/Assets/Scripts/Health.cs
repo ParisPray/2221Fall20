@@ -17,9 +17,7 @@ public class Health : MonoBehaviour
     public GameObject trash2;
     public GameObject trash3;
     public TrashSpawn TrashSpawn;
-    public bool isPickUp1;
-    public bool isPickUp2;
-    public bool isPickUp3;
+  
     
         [SerializeField]  CharacterMover playerControllerScript;
    
@@ -57,28 +55,15 @@ public class Health : MonoBehaviour
         health.value = 3f;
         characterController.enabled = true;
         
-        if (CompareTag("trash1"))
-        {
-            isPickUp1 = false;
-        }
-        if (CompareTag("trash2"))
-        {
-            isPickUp2 = false;
-        }
-        
-        if (CompareTag("trash3"))
-        {
-            isPickUp3 = false;
-        }
-
-        TrashPickup.ball.transform.parent = null;
+       
 
         trash1.transform.position = trash1SpawnPoint.transform.position;
         trash2.transform.position = trash2SpawnPoint.transform.position;
         trash3.transform.position = trash3SpawnPoint.transform.position;
         TrashSpawn.TrashRespawn();
-     
         
+
+
 
     }
     public void OnTriggerEnter(Collider other)

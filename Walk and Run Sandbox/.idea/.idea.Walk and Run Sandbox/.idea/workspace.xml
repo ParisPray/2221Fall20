@@ -35,6 +35,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Boundary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InventoryList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrashSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CarMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Health.cs" root0="FORCE_HIGHLIGHTING" />
@@ -68,14 +69,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LightBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeDoorScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" />
       </list>
     </option>
   </component>
@@ -148,7 +150,8 @@
       <workItem from="1606343960736" duration="2451000" />
       <workItem from="1606709358969" duration="6338000" />
       <workItem from="1606761727201" duration="1275000" />
-      <workItem from="1606864110686" duration="677000" />
+      <workItem from="1606864110686" duration="4812000" />
+      <workItem from="1606940956422" duration="4377000" />
     </task>
     <servers />
   </component>
@@ -177,5 +180,24 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="797" y="169" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606185797715" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/Health.cs</url>
+          <line>87</line>
+          <properties documentPath="C:\Users\paris\Dropbox\My PC (MSI)\Desktop\2221Fall20\Walk and Run Sandbox\Assets\Scripts\Health.cs" initialLine="86">
+            <startOffsets>
+              <option value="1925" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1926" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

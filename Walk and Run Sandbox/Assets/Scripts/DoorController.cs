@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
+  
+    
     public GameObject door;
     public ParticleSystem particleSystem;
     private void Start()
@@ -13,6 +15,7 @@ public class DoorController : MonoBehaviour
 
     private void OnDoorwayOpen()
     {
+        Debug.Log("You win!");
         particleSystem.Play();
         door.transform.position = new Vector3(0, 3, 0);
         

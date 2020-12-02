@@ -107,9 +107,11 @@ GameObject:
   - component: {fileID: 2919219336580659761}
   - component: {fileID: 2919219336580659762}
   - component: {fileID: 2919219336580659763}
+  - component: {fileID: 36114214517865852}
+  - component: {fileID: 2695188102957742710}
   m_Layer: 0
   m_Name: StreetLight
-  m_TagString: Untagged
+  m_TagString: streetlight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1305,6 +1307,55 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!136 &36114214517865852
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919219336580659764}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 29.822699
+  m_Height: 1.852512
+  m_Direction: 1
+  m_Center: {x: -37.283703, y: 0.20606676, z: 0.50157195}
+--- !u!114 &2695188102957742710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2919219336580659764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bea020b979f755499f287593e270910, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  counterdownEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  deathEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  time: {fileID: 11400000, guid: f36aaf24efefa2e4ca3feb0b4f613c39, type: 2}
+  maxTime: 20
+  current: {fileID: 2695188102957742710}
 --- !u!1 &2919219337170659692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1350,7 +1401,7 @@ Light:
   m_Color: {r: 0.9300535, g: 1, b: 0.504717, a: 1}
   m_Intensity: 10
   m_Range: 40
-  m_SpotAngle: 67
+  m_SpotAngle: 68.43492
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:

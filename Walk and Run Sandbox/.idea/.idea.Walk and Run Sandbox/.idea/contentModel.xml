@@ -26,6 +26,7 @@
           <e p="LightBar.cs" t="Include" />
           <e p="PlayerRespawn.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
+          <e p="StreetlightTimer.cs" t="Include" />
           <e p="TrashPickup.cs" t="Include" />
           <e p="TrashSpawn.cs" t="Include" />
           <e p="TriggerArea.cs" t="Include" />

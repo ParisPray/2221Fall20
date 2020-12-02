@@ -11,6 +11,7 @@ TagManager:
   - trash1
   - trash2
   - trash3
+  - streetlight
   layers:
   - Default
   - TransparentFX

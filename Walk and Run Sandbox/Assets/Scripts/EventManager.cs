@@ -19,7 +19,7 @@ public class EventManager : MonoBehaviour
 
     public void DoorwayTriggerEnter()
     {
-        if (onDoorwayTriggerEnter != null && TriggerArea.current.isPickUp1 == true && TriggerArea.current.isPickUp2 == true && TriggerArea.current.isPickUp3 == true )
+        if (onDoorwayTriggerEnter != null)
         {
             onDoorwayTriggerEnter();
         }

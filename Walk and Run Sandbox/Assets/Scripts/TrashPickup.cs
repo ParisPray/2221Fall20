@@ -9,9 +9,7 @@ public class TrashPickup : MonoBehaviour
     public bool canHold = true;
     public static GameObject ball;
     public Transform guide;
-    public bool isPickUp1;
-    public bool isPickUp2;
-    public bool isPickUp3;
+   
     
     void Update()
     {
