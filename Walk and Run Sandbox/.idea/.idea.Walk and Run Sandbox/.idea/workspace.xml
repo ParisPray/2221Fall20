@@ -62,7 +62,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boundary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Force.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CarMover.cs" />
@@ -74,11 +73,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DistanceCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" />
       </list>
     </option>
   </component>
@@ -154,6 +154,7 @@
       <workItem from="1606864110686" duration="4812000" />
       <workItem from="1606940956422" duration="4977000" />
       <workItem from="1607036708347" duration="11508000" />
+      <workItem from="1607131317653" duration="3491000" />
     </task>
     <servers />
   </component>

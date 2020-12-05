@@ -12,7 +12,7 @@ public class AI : MonoBehaviour
     private bool canHunt, canPatrol;
     public List<Transform> patrolPoints;
     public CharacterMover playerscript;
-    public TriggerVolume triggerScript;
+ 
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();

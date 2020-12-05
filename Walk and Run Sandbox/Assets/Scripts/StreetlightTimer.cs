@@ -6,10 +6,11 @@ using UnityEngine.Events;
 
 public class StreetlightTimer : MonoBehaviour
 {
-    public UnityEvent startEvent, counterdownEvent, deathEvent;
+    public UnityEvent counterdownEvent, deathEvent;
     float currCountdownValue;
     public IntData time;
     public int maxTime;
+    public float timertime;
     private bool timerPaused = false;
     public StreetlightTimer current;
     
@@ -19,39 +20,36 @@ public class StreetlightTimer : MonoBehaviour
         time.value = maxTime;
         timerPaused = true;
     }
-    
+
+    public void Update()
+    {
+        if (!timerPaused)
+        {
+            timertime += Time.deltaTime;
+        }
+    }
+
     public void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("streetlight"))
+        if (other.CompareTag("Player"))
         {
             timerPaused = false;
-            StartCountdown();
+            Debug.Log("timer going");
+            Countdown();
         }
-       
+
     }
 
     public void OnTriggerExit(Collider other)
     {
-        if(other.CompareTag("streetlight"))
-        timerPaused = true;
-        StopCountdown();
-    }
-
-    public void StartCountdown()
-    {
-        if (!timerPaused)
+        if (other.CompareTag("Player"))
         {
-            StartCoroutine(Countdown());
+            timerPaused = true;
+            Debug.Log("timer paused");
         }
+       
     }
-
-    public void StopCountdown()
-    {
-        if (timerPaused)
-        {
-            StopCoroutine(Countdown());
-        }
-    }
+    
 
     public IEnumerator Countdown()
     {
@@ -60,7 +58,6 @@ public class StreetlightTimer : MonoBehaviour
             counterdownEvent.Invoke();
             yield return new WaitForSeconds(1.0f);
             time.value--;
-            Debug.Log(time + "");
         }
 
         deathEvent.Invoke();
