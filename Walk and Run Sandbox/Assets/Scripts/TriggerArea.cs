@@ -6,15 +6,22 @@ using UnityEngine;
 public class TriggerArea : MonoBehaviour
 {
     public static TriggerArea current;
+    public DistanceCheck distanceCheck;
+    public Transform door;
+    public DoorController doorController;
     private void OnTriggerEnter(Collider other)
     {
-        if (GameObject.Find("trash1") && GameObject.Find("trash2")&&(GameObject.Find("trash3")))
+        //Debug.Log(other);
+        distanceCheck.loopThruObjects(distanceCheck.itemList, door.position);
+        if (distanceCheck.allTrue)
         {
-            EventManager.current.DoorwayTriggerEnter();
+            doorController.OnDoorwayOpen();
         }
         
         
     }
+
+ 
 
  
 }

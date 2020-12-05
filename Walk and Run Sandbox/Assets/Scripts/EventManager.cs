@@ -22,6 +22,8 @@ public class EventManager : MonoBehaviour
         if (onDoorwayTriggerEnter != null)
         {
             onDoorwayTriggerEnter();
+            
         }
+        Debug.Log("isTriggered");
     }
 }

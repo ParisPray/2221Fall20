@@ -4,20 +4,24 @@ using UnityEngine;
 
 public class DoorController : MonoBehaviour
 {
-  
+    public DistanceCheck distanceCheck;
     
     public GameObject door;
     public ParticleSystem particleSystem;
     private void Start()
     {
-        EventManager.current.onDoorwayTriggerEnter += OnDoorwayOpen;
+        //EventManager.current.onDoorwayTriggerEnter += OnDoorwayOpen();
     }
 
-    private void OnDoorwayOpen()
+    public void OnDoorwayOpen()
     {
-        Debug.Log("You win!");
-        particleSystem.Play();
-        door.transform.position = new Vector3(0, 3, 0);
+        if(distanceCheck.allTrue)
+        {
+            Debug.Log("You win!");
+            particleSystem.Play();
+            door.transform.position = new Vector3(0, 3, 0);
+        }
+        
         
     }
 }

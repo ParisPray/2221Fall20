@@ -13,8 +13,8 @@
           <e p="Camera.cs" t="Include" />
           <e p="CarMover.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="DistanceCheck.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
-          <e p="EscapeDoorScript.cs" t="Include" />
           <e p="EventManager.cs" t="Include" />
           <e p="floatData.cs" t="Include" />
           <e p="Force.cs" t="Include" />
