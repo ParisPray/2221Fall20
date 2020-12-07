@@ -5,7 +5,7 @@ using UnityEngine.Events;
 public class Health : MonoBehaviour
 {
     public UnityEvent addhealthEvent, subtracthealthEvent, deathEvent;
-    public floatData health;
+    public IntData health;
     public GameObject enemy;
     public GameObject healthobj;
     public GameObject currentSpawnPoint;
@@ -17,6 +17,8 @@ public class Health : MonoBehaviour
     public GameObject trash2;
     public GameObject trash3;
     public TrashSpawn TrashSpawn;
+    public TrashPickup trashPickup;
+    
   
     
         [SerializeField]  CharacterMover playerControllerScript;
@@ -40,7 +42,8 @@ public class Health : MonoBehaviour
     }
 
     public void SubtractHealth()
-    {
+    { 
+        subtracthealthEvent.Invoke();
         health.value--;
         if (health.value <= 0)
         {
@@ -50,18 +53,16 @@ public class Health : MonoBehaviour
 
     public void deathHealth()
     {
+        health.value = 0;
         characterController.enabled = false;
         transform.position = currentSpawnPoint.transform.position;
-        health.value = 3f;
         characterController.enabled = true;
-        
-       
-
+        gameObject.transform.parent = null;
         trash1.transform.position = trash1SpawnPoint.transform.position;
         trash2.transform.position = trash2SpawnPoint.transform.position;
         trash3.transform.position = trash3SpawnPoint.transform.position;
         TrashSpawn.TrashRespawn();
-        
+        health.value = 3;
 
 
 
@@ -82,6 +83,7 @@ public class Health : MonoBehaviour
         if (other.CompareTag("Enemy"))
         {
             SubtractHealth();
+            subtracthealthEvent.Invoke();
         }
 
         if (other.CompareTag("Car"))

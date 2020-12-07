@@ -108,7 +108,7 @@ GameObject:
   - component: {fileID: 7236080226202259719}
   - component: {fileID: 7236080226202259718}
   - component: {fileID: 5505883135410771529}
-  - component: {fileID: 7606480167199002947}
+  - component: {fileID: 3222332506988519864}
   m_Layer: 0
   m_Name: StreetLight
   m_TagString: streetlight
@@ -1321,7 +1321,7 @@ CapsuleCollider:
   m_Height: 2.3010733
   m_Direction: 1
   m_Center: {x: -24.350851, y: 0.20606661, z: 0.50157195}
---- !u!114 &7606480167199002947
+--- !u!114 &3222332506988519864
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1330,30 +1330,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 7236080226202259713}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1bea020b979f755499f287593e270910, type: 3}
+  m_Script: {fileID: 11500000, guid: 8d75a5b169778f6428ad0d855ebb3c1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  counterdownEvent:
-    m_PersistentCalls:
-      m_Calls: []
+  timeRemaining: 3
+  timerIsRunning: 0
   deathEvent:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 0}
-        m_MethodName: deathHealth
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: 
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  time: {fileID: 11400000, guid: f36aaf24efefa2e4ca3feb0b4f613c39, type: 2}
-  maxTime: 20
-  timertime: 5
-  current: {fileID: 7606480167199002947}
 --- !u!1 &7236080226836857433
 GameObject:
   m_ObjectHideFlags: 0

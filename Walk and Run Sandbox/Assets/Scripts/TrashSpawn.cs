@@ -17,8 +17,6 @@ public class TrashSpawn : MonoBehaviour
         trash1.transform.position = trash1SpawnPoint.transform.position;
         trash2.transform.position = trash2SpawnPoint.transform.position;
         trash3.transform.position = trash3SpawnPoint.transform.position;
-        Instantiate(trash1);
-        Instantiate(trash2);
-        Instantiate(trash3);
+        
     }
 }

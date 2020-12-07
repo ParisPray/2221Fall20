@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerRespawn : MonoBehaviour
 {
     public GameObject currentSpawnPoint;
-    public floatData health;
+    public IntData health;
     public CharacterController characterController;
 
     private void Start()
@@ -16,11 +16,11 @@ public class PlayerRespawn : MonoBehaviour
 
     void Update()
     {
-        if (health.value <= 0f)
+        if (health.value <= 0)
         {
             characterController.enabled = false;
             transform.position = currentSpawnPoint.transform.position;
-            health.value = 3f;
+            health.value = 3;
             characterController.enabled = true;
         }
     }
