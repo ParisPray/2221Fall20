@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class timerScript : MonoBehaviour
 {
-    public float timeRemaining = 10;
+    public float timeRemaining = 3;
     public bool timerIsRunning = false;
     public UnityEvent deathEvent;
 
@@ -40,7 +40,7 @@ public class timerScript : MonoBehaviour
                 timeRemaining = 0;
                 timerIsRunning = false;
                 deathEvent.Invoke();
-                timeRemaining = 10;
+                timeRemaining = 3;
 
             }
         }

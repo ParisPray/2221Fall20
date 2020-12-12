@@ -77,15 +77,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DistanceCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/timerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/timerText.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthUi.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/timerScript.cs" />
       </list>
     </option>
   </component>
@@ -173,6 +173,7 @@
       <workItem from="1607322038418" duration="1341000" />
       <workItem from="1607367320664" duration="4584000" />
       <workItem from="1607373045867" duration="2327000" />
+      <workItem from="1607542895168" duration="885000" />
     </task>
     <servers />
   </component>
