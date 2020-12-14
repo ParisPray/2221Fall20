@@ -25,6 +25,7 @@
           <e p="InventoryList.cs" t="Include" />
           <e p="Jump.cs" t="Include" />
           <e p="LightBar.cs" t="Include" />
+          <e p="LightUI.cs" t="Include" />
           <e p="MainMenu.cs" t="Include" />
           <e p="PlayerRespawn.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />

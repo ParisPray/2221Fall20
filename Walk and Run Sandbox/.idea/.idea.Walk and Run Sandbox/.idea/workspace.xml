@@ -86,6 +86,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/timerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LightUI.cs" />
       </list>
     </option>
   </component>
@@ -174,6 +175,7 @@
       <workItem from="1607367320664" duration="4584000" />
       <workItem from="1607373045867" duration="2327000" />
       <workItem from="1607542895168" duration="885000" />
+      <workItem from="1607806706295" duration="2871000" />
     </task>
     <servers />
   </component>
