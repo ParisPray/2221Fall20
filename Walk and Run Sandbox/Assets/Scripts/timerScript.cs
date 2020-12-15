@@ -6,7 +6,7 @@ using UnityEngine.Events;
 
 public class timerScript : MonoBehaviour
 {
-    public float timeRemaining = 3;
+    public floatData timeLeft;
     public bool timerIsRunning = false;
     public UnityEvent deathEvent;
 
@@ -30,17 +30,17 @@ public class timerScript : MonoBehaviour
     {
         if (timerIsRunning)
         {
-            if (timeRemaining > 0)
+            if (timeLeft.value > 0)
             {
-                timeRemaining -= Time.deltaTime;
+                timeLeft.value -= Time.deltaTime;
             }
             else
             {
                 Debug.Log("Time has run out!");
-                timeRemaining = 0;
+                timeLeft.value = 0;
                 timerIsRunning = false;
                 deathEvent.Invoke();
-                timeRemaining = 3;
+                timeLeft.value = 3;
 
             }
         }

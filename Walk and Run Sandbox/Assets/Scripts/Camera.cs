@@ -6,7 +6,7 @@ public class Camera: MonoBehaviour
 {
     public GameObject player;
 
-    private Vector3 offset = new Vector3(0, 40, 0);
+    private Vector3 offset = new Vector3(-4, 40, -20);
 
 
     // Update is called once per frame
@@ -14,4 +14,4 @@ public class Camera: MonoBehaviour
     {
         transform.position = player.transform.position + offset;
     }
-}
+}n

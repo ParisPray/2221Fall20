@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
@@ -8,9 +9,14 @@ public class LightUI : MonoBehaviour
 {
 
     public Slider slider;
-    public Text displayText;
     private UnityEvent onProgressComplete;
     public float currentValue = 0f;
+    public floatData timeLeft;
+
+    public void Start()
+    {
+        timeLeft.value = 3;
+    }
 
     public new float CurrentValue {
         get
@@ -18,29 +24,19 @@ public class LightUI : MonoBehaviour
             return currentValue;
         }
         set {
-            // If the value exceeds the max fill, invoke the completion function
+            
             if (value >= slider.maxValue)
                 onProgressComplete.Invoke();
             
         }
     }
     
-    void Start ()
+   
+    void Update ()
     {
-        CurrentValue = 0f;
-        // Initialize onProgressComplete and set a basic callback
-        if (onProgressComplete == null)
-            onProgressComplete = new UnityEvent();
-        onProgressComplete.AddListener(OnProgressComplete);
-    }
-	
-    void Update () {
-        CurrentValue += 0.0153f;
+        slider.value = timeLeft.value;
     }
 
-    // The method to call when the progress bar fills up
-    void OnProgressComplete() {
-        Debug.Log("Progress Complete");
-    }
-
+    
+   
 }

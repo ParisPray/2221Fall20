@@ -1333,7 +1333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d75a5b169778f6428ad0d855ebb3c1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeRemaining: 3
+  timeLeft: {fileID: 11400000, guid: 654ec5e438f91b5429c46ea86181d6b1, type: 2}
   timerIsRunning: 0
   deathEvent:
     m_PersistentCalls:

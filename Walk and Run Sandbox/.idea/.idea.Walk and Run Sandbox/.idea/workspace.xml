@@ -77,7 +77,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DistanceCheck.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/timerText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
@@ -87,6 +86,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/timerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/dialogue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Camera.cs" />
       </list>
     </option>
   </component>
@@ -176,6 +177,7 @@
       <workItem from="1607373045867" duration="2327000" />
       <workItem from="1607542895168" duration="885000" />
       <workItem from="1607806706295" duration="2871000" />
+      <workItem from="1607979636232" duration="4680000" />
     </task>
     <servers />
   </component>
