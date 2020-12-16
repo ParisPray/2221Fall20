@@ -8,16 +8,20 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="AI.cs" t="Include" />
+          <e p="BoolBehaviour.cs" t="Include" />
           <e p="Boundary.cs" t="Include" />
           <e p="Bullet.cs" t="Include" />
           <e p="Camera.cs" t="Include" />
           <e p="CarMover.cs" t="Include" />
           <e p="CharacterMover.cs" t="Include" />
+          <e p="DebugBehaviour.cs" t="Include" />
           <e p="DistanceCheck.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
           <e p="EventManager.cs" t="Include" />
           <e p="floatData.cs" t="Include" />
           <e p="Force.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="Health.cs" t="Include" />
           <e p="HealthUi.cs" t="Include" />
           <e p="InstantiateCar.cs" t="Include" />
@@ -29,6 +33,8 @@
           <e p="MainMenu.cs" t="Include" />
           <e p="PlayerRespawn.cs" t="Include" />
           <e p="PlayerShooting.cs" t="Include" />
+          <e p="SignScript.cs" t="Include" />
+          <e p="TextEnabler.cs" t="Include" />
           <e p="timerScript.cs" t="Include" />
           <e p="timerText.cs" t="Include" />
           <e p="TrashPickup.cs" t="Include" />

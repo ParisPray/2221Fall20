@@ -14,4 +14,4 @@ public class Camera: MonoBehaviour
     {
         transform.position = player.transform.position + offset;
     }
-}n
+}
