@@ -185,10 +185,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 2.3711166
+  m_Radius: 0.6655358
   m_Height: 4.7422333
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: -0.09728756}
+  m_Center: {x: 0.021529566, y: 0.0000001707686, z: 0.013716134}
 --- !u!195 &7751497028748711617
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -229,4 +229,3 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   playerscript: {fileID: 0}
-  triggerScript: {fileID: 0}

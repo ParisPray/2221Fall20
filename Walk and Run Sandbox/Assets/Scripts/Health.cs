@@ -53,6 +53,7 @@ public class Health : MonoBehaviour
 
     public void deathHealth()
     {
+        trashPickup.throw_drop();
         health.value = 0;
         characterController.enabled = false;
         transform.position = currentSpawnPoint.transform.position;

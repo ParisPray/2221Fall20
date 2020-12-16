@@ -56,6 +56,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/timerScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LightBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EndScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/timerText.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TextEnabler.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -74,7 +75,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeDoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
@@ -86,9 +86,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/IntData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthUi.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/timerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LightUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/dialogue.cs" />
@@ -97,6 +95,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BoolBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TextEnabler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SignScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EndScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
       </list>
     </option>
   </component>
@@ -187,7 +189,7 @@
       <workItem from="1607542895168" duration="885000" />
       <workItem from="1607806706295" duration="2871000" />
       <workItem from="1607979636232" duration="4680000" />
-      <workItem from="1608060611621" duration="14327000" />
+      <workItem from="1608060611621" duration="18312000" />
     </task>
     <servers />
   </component>

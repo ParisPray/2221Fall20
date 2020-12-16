@@ -17,6 +17,7 @@
           <e p="DebugBehaviour.cs" t="Include" />
           <e p="DistanceCheck.cs" t="Include" />
           <e p="DoorController.cs" t="Include" />
+          <e p="EndScript.cs" t="Include" />
           <e p="EventManager.cs" t="Include" />
           <e p="floatData.cs" t="Include" />
           <e p="Force.cs" t="Include" />

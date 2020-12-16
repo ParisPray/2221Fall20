@@ -63,7 +63,7 @@ public class TrashPickup : MonoBehaviour
 
     }
  
-    private void throw_drop()
+    public void throw_drop()
     {
         
         if (!ball)
