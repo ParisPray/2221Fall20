@@ -74,13 +74,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LightBar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EscapeDoorScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InventoryList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/EventManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DoorController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DistanceCheck.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/StreetlightTimer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/timerText.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerRespawn.cs" />
@@ -99,6 +96,9 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/EndScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TrashPickup.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Health.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/InstantiateCar.cs" />
       </list>
     </option>
   </component>
@@ -190,6 +190,7 @@
       <workItem from="1607806706295" duration="2871000" />
       <workItem from="1607979636232" duration="4680000" />
       <workItem from="1608060611621" duration="18312000" />
+      <workItem from="1608135567900" duration="3415000" />
     </task>
     <servers />
   </component>

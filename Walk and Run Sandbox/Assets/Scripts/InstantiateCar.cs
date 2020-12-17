@@ -13,7 +13,7 @@ public class InstantiateCar : MonoBehaviour
     
     IEnumerator Spawn ()
     {
-        yield return new WaitForSeconds (Random.Range (1, 48000));
+        yield return new WaitForSeconds (Random.Range (5, 48000));
         Car.transform.position = carSpawnPoint.transform.position;
         Instantiate(Car);
         

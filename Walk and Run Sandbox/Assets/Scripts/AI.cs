@@ -27,7 +27,7 @@ public class AI : MonoBehaviour
         canPatrol = false;
         agent.destination = player.position;
         var distance = agent.remainingDistance;
-        while (distance <= 0.25f)
+        while (distance <= 0f)
         {
             distance = agent.remainingDistance;
             yield return wffu;
@@ -38,7 +38,7 @@ public class AI : MonoBehaviour
     }
     private void OnTriggerExit(Collider other)
     {
-        canHunt = false;
+        //canHunt = false;
         //StartCoroutine(Patrol());
     }
     
